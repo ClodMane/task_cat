@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/Exo2.0-Thin.otf") format("opentype");
+}
+body {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), color-stop(49.88%, rgba(0, 0, 0, 0.00005)), to(rgba(0, 0, 0, 0.5))) no-repeat 100%/100%, no-repeat 100% 0/cover url(../img/background/Pattern.png);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.00005) 49.88%, rgba(0, 0, 0, 0.5) 100%) no-repeat 100%/100%, no-repeat 100% 0/cover url(../img/background/Pattern.png);
+  overflow: hidden;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.h1 {
+  color: #F2F2F2;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 36px;
+}
+
+.main__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.card {
+  background: 100% 100% no-repeat url(../img/cards/cat/Photo.png), #fff;
+  width: 312px;
+  height: 472px;
+  margin: 24px 40px;
+  border-radius: 8px;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0 100%, 0 15%);
+          clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0 100%, 0 15%);
+  position: absolute;
+  top: -20px;
+  left: -35px;
+}
+.card__motivation {
+  color: #fff;
+  text-align: center;
+}
+.card__weight {
+  background: #1698d9;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+.card__border {
+  width: 321px;
+  height: 480px;
+  background: #1698d9;
+  position: relative;
+  margin: 24px 40px;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0 100%, 0 15%);
+          clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0 100%, 0 15%);
+  border-radius: 8px;
+}
+.card__title {
+  color: #666666;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.58px;
+  margin-top: 17px;
+  margin-left: 70px;
+  width: 205px;
+}
+.card__header {
+  color: #000;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  margin-top: 17px;
+  margin-left: 70px;
+  width: 205px;
+}
+
+.link {
+  color: #1698d9;
+  text-decoration: none;
+  border-bottom: 1px dashed #1698d9;
+}
