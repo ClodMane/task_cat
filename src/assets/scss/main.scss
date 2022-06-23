@@ -7,7 +7,7 @@ body {
         rgba(0, 0, 0, 0.5) 100%
       )
       no-repeat 100%/100%,
-    no-repeat 100% 0 / cover url(../img/background/Pattern.png);
+    no-repeat 100% 0 / cover url(../images/background/Pattern.png);
   overflow: hidden;
   // background-color: pink;
 }
@@ -34,7 +34,7 @@ main {
   gap: 80px;
 }
 .card {
-  background: -6px 102% no-repeat url(../img/cards/cat/Photo.png), #F2F2F2;
+  background: -6px 102% no-repeat url(../images/cards/cat/Photo.png), #F2F2F2;
   width: 312px;
   height: 472px;
   margin-top: 24px;
@@ -147,7 +147,19 @@ main {
   text-decoration: none;
   border-bottom: 1px dashed #1698d9;
 }
-
 .card__border--active {
-  background:pink;
+  background: #D91667; 
+  &:hover {
+    background: #E52E7A;
+  }
+}
+.card__motivation--active {
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  margin-top: 10px;
+  margin-left: -8px;
+
 }
