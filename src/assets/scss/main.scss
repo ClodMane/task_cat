@@ -152,6 +152,9 @@ main {
   }
   &__border:hover {
     background: #2ea8e6;
+
+    .card__weight{
+      background: #2EA8E6;}
   }
 
   &__title {
@@ -234,6 +237,14 @@ main {
 .plain-text {
   font-family: "Trebuchet MS", serif;
   color: #666666;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+}
+.plain-text--number {
+  font-family: "Trebuchet MS", serif;
+  color: #666666;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -249,6 +260,10 @@ main {
   background: #d91667;
   &:hover {
     background: #e52e7a;
+
+    .card__weight {
+      background: #E52E7A;
+    }
   }
 
   .card__weight {
