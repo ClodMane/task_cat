@@ -11,15 +11,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  // background-color: pink;
 }
 main {
   width: 100%;
   height: auto;
   max-width: 1120px;
-  // margin: auto;
-  // position: absolute;
-  // top: 50%;
 }
 
 .h1 {
@@ -28,7 +24,16 @@ main {
   text-align: center;
   line-height: 44px;
 }
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 
+  @media screen and (max-width: 380px) {
+    height: 537px;
+  }
+}
 .main__items {
   display: flex;
   justify-content: space-between;
@@ -153,8 +158,9 @@ main {
   &__border:hover {
     background: #2ea8e6;
 
-    .card__weight{
-      background: #2EA8E6;}
+    .card__weight {
+      background: #2ea8e6;
+    }
   }
 
   &__title {
@@ -262,7 +268,7 @@ main {
     background: #e52e7a;
 
     .card__weight {
-      background: #E52E7A;
+      background: #e52e7a;
     }
   }
 
@@ -278,6 +284,10 @@ main {
   line-height: 15px;
   margin-top: 14px;
   margin-left: -8px;
+  @media screen and (max-width: 380px) {
+    width: 200px;
+    text-align: center;
+  }
 }
 
 .card__motivation--disabled {

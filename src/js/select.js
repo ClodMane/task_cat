@@ -26,6 +26,7 @@ let changeStatus = function (item) {
 let clickHandler = function (node, item) {
   let card = item.querySelector(".card__border");
   node.addEventListener("click", (event) => {
+    event.preventDefault()
     event.stopPropagation()
     card.classList.toggle("card__border--active");
     changeStatus(item);
