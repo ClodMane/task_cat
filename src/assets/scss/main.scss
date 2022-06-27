@@ -50,7 +50,7 @@ main {
   }
 }
 .card {
-  background: -6px 102% no-repeat url(../images/cards/cat/Photo.png), #f2f2f2;
+  background: -7px 104% no-repeat url(../images/cards/cat/Photo.png), #f2f2f2;
   width: 312px;
   height: 472px;
   margin-top: 24px;
@@ -89,8 +89,8 @@ main {
     height: 80px;
     border-radius: 50%;
     position: absolute;
-    bottom: 13px;
-    right: 12px;
+    bottom: 9px;
+    right: 15px;
   }
   &__weight--active {
     background: #d91667;
@@ -168,8 +168,8 @@ main {
     color: #666666;
     font-weight: 400;
     font-size: 16px;
-    line-height: 18.58px;
-    margin-top: 17px;
+    line-height: 18px;
+    margin-top: 21px;
     margin-left: 45px;
     width: 205px;
 
@@ -195,10 +195,10 @@ main {
     font-family: "Trebuchet MS", serif;
     font-weight: 700;
     font-size: 48px;
-    line-height: 55, 73px;
+    line-height: 28px;
     color: #000;
-    margin-top: 22px;
-    margin-left: 43px;
+    margin-top: 19px;
+    margin-left: 40px;
     width: 205px;
 
     @media screen and (max-width: 301px) {
@@ -209,9 +209,9 @@ main {
     font-family: "Trebuchet MS", serif;
     font-weight: 700;
     font-size: 24px;
-    line-height: 27, 87px;
+    line-height: 27px;
     color: #000;
-    margin-top: 22px;
+    margin-top: 15px;
     margin-left: 45px;
     width: 205px;
   }
@@ -237,7 +237,7 @@ main {
     margin-left: 30px;
   }
   &__compound {
-    padding: 19px 46px;
+    padding: 15px 46px;
   }
 }
 .plain-text {
